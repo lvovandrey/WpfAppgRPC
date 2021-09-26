@@ -10,11 +10,13 @@ namespace GrpcService1
     {
         public DBCardContext()
         {
+            Database.EnsureCreated();
         }
 
         public DBCardContext(DbContextOptions<DBCardContext> options)
             : base(options)
         {
+            Database.EnsureCreated();
         }
 
         public virtual DbSet<Card> Cards { get; set; }
