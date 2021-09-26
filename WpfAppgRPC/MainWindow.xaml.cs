@@ -28,10 +28,10 @@ namespace WpfAppgRPC
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            using var serviceProvider = new GrpcServiceProvider();
-            var client = serviceProvider.GetGreeterClient();
-            var reply = await client.SayHelloAsync(new HelloRequest { Name = "GreeterClient" });
-            txt.Text = reply.Message;
+            using var serviceProvider = new GrpcDataSourceProvider();
+            var client = serviceProvider.GetDataSourceClient();
+            var reply = await client.ReturnDataAsync(new DataRequest() { RequestString = "GreeterClient" });
+            txt.Text = reply.Data;
         }
     }
 }

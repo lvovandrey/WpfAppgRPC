@@ -6,16 +6,16 @@ using System.Text;
 
 namespace WpfAppgRPC
 {
-    public class GrpcServiceProvider : IDisposable
+    public class GrpcDataSourceProvider : IDisposable
     {
-        public GrpcServiceProvider()
+        public GrpcDataSourceProvider()
         {
             this.ServiceUrl = "https://localhost:5001";
             this.DefaultRpcChannel = new Lazy<GrpcChannel>(GrpcChannel.ForAddress(this.ServiceUrl));
         }
 
-        public Greeter.GreeterClient GetGreeterClient() => 
-            this.GreeterClient ??= new Greeter.GreeterClient(this.DefaultRpcChannel.Value);
+        public DataSource.DataSourceClient GetDataSourceClient() => 
+            this.DataSourceClient ??= new DataSource.DataSourceClient(this.DefaultRpcChannel.Value);
 
         #region IDisposable Support
         private bool disposedValue = false; // To detect redundant calls
@@ -59,6 +59,6 @@ namespace WpfAppgRPC
 
         private Lazy<GrpcChannel> DefaultRpcChannel { get; set; }
         private string ServiceUrl { get; set; }
-        private Greeter.GreeterClient GreeterClient { get; set; }
+        private DataSource.DataSourceClient DataSourceClient { get; set; }
     }
 }

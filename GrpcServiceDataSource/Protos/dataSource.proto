@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcServiceDataSource";
+
+package dataSource;
+
+// The greeting service definition.
+service DataSource {
+  // Sends a greeting
+  rpc ReturnData (DataRequest) returns (DataReply);
+}
+
+// The request message containing the user's name.
+message DataRequest {
+  string requestString = 1;
+}
+
+// The response message containing the greetings.
+message DataReply {
+  string data = 1;
+}

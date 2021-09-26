@@ -288,19 +288,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Professional\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Professional\\source\\repos\\WpfAppgRPC\\WpfAppgRPC\\WpfAppgRPC.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\WpfAppgRPC\\WpfAppgRPC\\WpfAppgRPC.csproj",
       "projectName": "WpfAppgRPC",
-      "projectPath": "C:\\Users\\Professional\\source\\repos\\WpfAppgRPC\\WpfAppgRPC\\WpfAppgRPC.csproj",
-      "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Professional\\source\\repos\\WpfAppgRPC\\WpfAppgRPC\\obj\\",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\WpfAppgRPC\\WpfAppgRPC\\WpfAppgRPC.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\WpfAppgRPC\\WpfAppgRPC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Professional\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -313,8 +313,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Professional\\source\\repos\\WpfAppgRPC\\ClassLibrary1\\ClassLibrary1.csproj": {
-              "projectPath": "C:\\Users\\Professional\\source\\repos\\WpfAppgRPC\\ClassLibrary1\\ClassLibrary1.csproj"
+            "C:\\Users\\User\\Source\\Repos\\WpfAppgRPC\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "C:\\Users\\User\\Source\\Repos\\WpfAppgRPC\\ClassLibrary1\\ClassLibrary1.csproj"
             }
           }
         }
@@ -345,7 +345,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
