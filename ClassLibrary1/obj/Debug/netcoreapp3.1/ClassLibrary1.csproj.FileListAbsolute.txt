@@ -6,7 +6,6 @@ C:\Users\Professional\source\repos\WpfAppgRPC\ClassLibrary1\obj\Debug\netcoreapp
 C:\Users\Professional\source\repos\WpfAppgRPC\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.pdb
 C:\Users\Professional\source\repos\WpfAppgRPC\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.dll
 C:\Users\Professional\source\repos\WpfAppgRPC\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.pdb
-C:\Users\Professional\source\repos\WpfAppgRPC\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.csprojAssemblyReference.cache
 C:\Users\User\Source\Repos\WpfAppgRPC\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.deps.json
 C:\Users\User\Source\Repos\WpfAppgRPC\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.dll
 C:\Users\User\Source\Repos\WpfAppgRPC\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.pdb
