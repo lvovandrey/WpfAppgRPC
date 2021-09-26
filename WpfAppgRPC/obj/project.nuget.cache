@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "25Eh6H6rEFJE71mHSmx1QEMx5tenzaertNQOskK7UHGOfrhCcePAonEE+u9G8eMVtVTDj2070j8Y1Ryj9vS3Kw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Professional\\source\\repos\\WpfAppgRPC\\WpfAppgRPC\\WpfAppgRPC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Professional\\.nuget\\packages\\google.protobuf\\3.18.0\\google.protobuf.3.18.0.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\grpc.core.api\\2.39.1\\grpc.core.api.2.39.1.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\grpc.net.client\\2.39.0\\grpc.net.client.2.39.0.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\grpc.net.common\\2.39.0\\grpc.net.common.2.39.0.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
