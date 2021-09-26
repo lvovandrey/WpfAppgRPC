@@ -12,7 +12,7 @@ service DataSource {
 
 // The request message containing the user's name.
 message DataRequest {
-  string requestString = 1;
+  int32 id = 1;
 }
 
 // The response message containing the greetings.

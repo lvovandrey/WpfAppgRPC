@@ -19,8 +19,20 @@ namespace GrpcService1
         {
             return Task.FromResult(new DataReply
             {
-                Data = "Data ---- 1 2 3 4"
+                Data = GetData(request.Id)
             });
+        }
+
+        private string GetData(int id)
+        {
+            using (DBCardContext db = new DBCardContext())
+            {
+                // получаем объекты из бд и выводим на консоль
+                var users = db.Cards.ToList();
+                var user = users.Where(i => i.Id == id).FirstOrDefault();
+                if (user == null) return "No data";
+                return user.Id.ToString() + "   " + user.Name;
+            }
         }
     }
 }

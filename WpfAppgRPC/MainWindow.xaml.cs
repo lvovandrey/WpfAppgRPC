@@ -28,10 +28,21 @@ namespace WpfAppgRPC
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
+
             using var serviceProvider = new GrpcDataSourceProvider();
             var client = serviceProvider.GetDataSourceClient();
-            var reply = await client.ReturnDataAsync(new DataRequest() { RequestString = "GreeterClient" });
-            txt.Text = reply.Data;
+            try
+            {
+                int id;
+                if (!int.TryParse(txtBox.Text, out id)) return;
+                var reply = await client.ReturnDataAsync(new DataRequest() { Id = id });
+                txt.Text = reply.Data;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
     }
 }

@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock Height="30" VerticalAlignment="Top" x:Name="txt"/>
+        <StackPanel>
+            <TextBox Height="30" x:Name="txtBox" />
+            <TextBlock Height="30" VerticalAlignment="Top" x:Name="txt"/>
+        </StackPanel>
+        
         <Button Click="Button_Click" Width="100" Height="30"/>
     </Grid>
 </Window>
