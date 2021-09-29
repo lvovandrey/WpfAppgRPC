@@ -47,7 +47,6 @@ C:\Users\User\Source\Repos\WpfAppgRPC\WpfAppgRPC\obj\Debug\netcoreapp3.1\MainWin
 C:\Users\User\Source\Repos\WpfAppgRPC\WpfAppgRPC\obj\Debug\netcoreapp3.1\WpfAppgRPC.g.resources
 C:\Users\User\Source\Repos\WpfAppgRPC\WpfAppgRPC\obj\Debug\netcoreapp3.1\WpfAppgRPC.AssemblyInfoInputs.cache
 C:\Users\User\Source\Repos\WpfAppgRPC\WpfAppgRPC\obj\Debug\netcoreapp3.1\WpfAppgRPC.AssemblyInfo.cs
-C:\Users\User\Source\Repos\WpfAppgRPC\WpfAppgRPC\obj\Debug\netcoreapp3.1\WpfAppgRPC.csproj.CoreCompileInputs.cache
 C:\Users\User\Source\Repos\WpfAppgRPC\WpfAppgRPC\obj\Debug\netcoreapp3.1\WpfAppgRPC.csproj.CopyComplete
 C:\Users\User\Source\Repos\WpfAppgRPC\WpfAppgRPC\obj\Debug\netcoreapp3.1\WpfAppgRPC.dll
 C:\Users\User\Source\Repos\WpfAppgRPC\WpfAppgRPC\obj\Debug\netcoreapp3.1\WpfAppgRPC.pdb

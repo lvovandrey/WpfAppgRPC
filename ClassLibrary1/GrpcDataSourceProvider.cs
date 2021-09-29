@@ -1,4 +1,5 @@
-﻿using Grpc.Net.Client;
+﻿using ClassLibrary1;
+using Grpc.Net.Client;
 using GrpcService1;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Text;
 
 namespace WpfAppgRPC
 {
-    public class GrpcDataSourceProvider : IDisposable
+    public class GrpcDataSourceProvider : IGrpcDataSourceProvider
     {
         public GrpcDataSourceProvider()
         {

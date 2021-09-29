@@ -1,4 +1,5 @@
-﻿using GrpcService1;
+﻿using DryIoc;
+using GrpcService1;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,15 +22,18 @@ namespace WpfAppgRPC
     /// </summary>
     public partial class MainWindow : Window
     {
+        Container container;
         public MainWindow()
         {
             InitializeComponent();
+            container = new Container();
+            container.Register<IGrpcDataSourceProvider, GrpcDataSourceProvider>();
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            using var serviceProvider = new GrpcDataSourceProvider();
+            using var serviceProvider = container.Resolve<IGrpcDataSourceProvider>();
             var client = serviceProvider.GetDataSourceClient();
             try
             {
